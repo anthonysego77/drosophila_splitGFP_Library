@@ -6,7 +6,7 @@ library(ggpubr)
 
 mRNAtoGFPExpressionData <- read_excel('~/Desktop/R-workingFolder/mRNACorrelations.xlsx')
 
-#changed original xcel file to have only L CNS on sheet 3 to make it easier to work with
+#changed original excel file to have only L CNS on sheet 3 to make it easier to work with
 flyAtlas2CNSGenes <- read_excel('~/Desktop/R-workingFolder/FlyAtlas2_gene_data_v2.xlsx', sheet = "Sheet3")
 
 #correlation plot
